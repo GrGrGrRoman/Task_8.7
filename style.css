@@ -1,0 +1,40 @@
+.game-card {
+    height: 100vh;
+    font-family: 'Open Sans', monospace;
+    background-color: aquamarine;
+}
+
+.card-header, .card-body, .card-footer, #answerField, #btnRetry {
+    background-color: #fde38d;
+    font-weight: 700;
+}
+
+#btnRetry {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: red;
+    border-color: red;
+}
+
+.btn-info:hover {
+    color: #fff;
+    background-color: red;
+    border-color: red;
+}
+
+.btn-info.focus, .btn-info:focus {
+    color: #fff;
+    background-color: red;
+    border-color: red;
+    box-shadow: 0 0 0 0.2rem rgba(179, 67, 53, 0.459);
+}
+
+.btn-info:not(:disabled):not(.disabled).active, .btn-info:not(:disabled):not(.disabled):active, .show>.btn-info.dropdown-toggle {
+    color: #fff;
+    background-color: red;
+    border-color: red;
+}
